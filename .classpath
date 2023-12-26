@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
-		<attributes>
+<?xml version="1.0" encoding="UTF-8"?>	//dosyanın sürümünü ve karakter kodlamasını tanımlar
+<classpath>	// tüm classpath bilgilerini kapsayan etiket
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">  //classpath girişini tanımlar. JAVA SE 17 sürümünü referans gösterir
+		<attributes>	// ek nitelikleri tanımlar 
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src"/>	// src isimli kaynak dosyası ekler. (path: kaynak kodların bulunduğu klasör ; kind: kaynak kodun classpath girişi olduğunu belirtir.) 
+	<classpathentry kind="output" path="bin"/>	// kind: çıktı klasörü classpath girişi olduğunu belirtir. path: çıktı dosyalarının konacağı klasör.
 </classpath>
 
 
