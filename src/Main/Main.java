@@ -27,7 +27,7 @@ public class Main {
                 dispatcher.dispatch();
                 currentTime++;
                 // Optional: simulate time passing
-                System.out.print("ddd");
+                System.out.print("aaa");
             }
         } catch (IOException e) {
             e.printStackTrace();
