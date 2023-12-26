@@ -27,7 +27,7 @@ public class Main {
                 dispatcher.dispatch();
                 currentTime++;
                 // Optional: simulate time passing
-                System.out.print("aaa");
+                System.out.print("Press enter to continue...");
             }
         } catch (IOException e) {
             e.printStackTrace();
