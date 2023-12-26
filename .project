@@ -1,18 +1,22 @@
 // XML dosyası: IDE ve derleyiciye Java projesinin temel özelliklerini ve yapısını tanımlar
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>Dispatch</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
+
+<?xml version="1.0" encoding="UTF-8"?>		// XML dosyasının sürümü ve karakter kodlamasını belirtir
+<projectDescription>		// Proje bilgilerini içeren etiket 
+	<name>Dispatch</name>	// projenin adını belirleyen etiket
+	<comment></comment>	// Proje hakkında yorum eklemek için 
+	<projects></projects>	// Alt projeleri listeleyen etiket
+	
+	<buildSpec>		// Projenin nasıl oluşturulacağını tanımlayan build komutlarını içeren etiket
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
+			<name>org.eclipse.jdt.core.javabuilder</name>	// Eclipse JDT derleyicisine Java Builder'ı belirtir
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
+	<natures>		// Projenin doğasını(hangi tür proje olduğunu) belirtir
+		<nature>org.eclipse.jdt.core.javanature</nature>	// Projenin Java projesi oldupunu tanımlar
 	</natures>
 </projectDescription>
+
+
+// Bu kod projenin tanımlanması, Build süreci ve IDE uyumu hakkında tanımlamalar yapar
