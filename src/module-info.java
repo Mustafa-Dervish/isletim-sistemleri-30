@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Dispatch {    // dispatch isimli modülü tanımlar. Proje -nin işlevselliğini organize eder ve projenin farklı parçaları arasında ileittşimi sağlar
+module Dispatch {    // dispatch isimli modülü tanımlar. Projenin işlevselliğini organize eder ve farklı parçaları arasında ileitişimi sağlar
 }
