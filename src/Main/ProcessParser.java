@@ -2,8 +2,8 @@
 
 package Main;    // Programı başlatacak fonksiyon
 
-// package import ederken * işareti kullanılması paketteki tüm sınıfların eklenmesini sağlar
-import java.io.*;       // giriş ve çıkış işlemleri (I/O) gerçekleştirmek için gerekli araçları ekler.
+// Package eklenirken(import) * işareti kullanılması paketteki tüm sınıfların eklenmesini sağlar
+import java.io.*;       // Giriş ve çıkış işlemleri (I/O) gerçekleştirmek için gerekli araçları ekler.
 import java.util.*;     // Koleksiyonlar, tarih ve saat işlemleri, uluslararasılaştırma ve çeşitli yardımcı sınıfları içerir
 
 public class ProcessParser {        // Input dosyasından süreç bilgilerini okuyup işleyen class(sınıf).
