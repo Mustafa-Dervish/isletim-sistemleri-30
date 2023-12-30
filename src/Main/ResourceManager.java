@@ -1,4 +1,4 @@
-package Main;
+package Main;    // Programı başlatacak fonksiyon 
 
 public class ResourceManager {
     private int availablePrinters = 2;     // Kullanılabilir yazıcı sayısı
