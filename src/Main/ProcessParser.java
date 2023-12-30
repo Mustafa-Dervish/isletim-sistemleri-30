@@ -1,6 +1,6 @@
 // Bir dosyadan okunan verileri işleyerek bir işlem listesi oluşturur. Her bir süreç için bir 'Process' nesnesi oluşturan bir 'ProcessParser' sınıfını tanımlar. Bu sınıf, süreçlerin yönetimini ve işletilmesini kolaylaştırmak için kullanılır.
 
-package Main;
+package Main;    // Programı başlatacak fonksiyon
 
 // package import ederken * işareti kullanılması paketteki tüm sınıfların eklenmesini sağlar
 import java.io.*;       // giriş ve çıkış işlemleri (I/O) gerçekleştirmek için gerekli araçları ekler.
