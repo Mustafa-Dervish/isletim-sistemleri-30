@@ -1,3 +1,6 @@
+bin klasöründeki dosyalar binary coded olduğu için normal txt editörleri veya compiler ile görüntülenemez ve düzenlenemez. Bu tip dosyalar için Visual Studio'nun Binary Editor'u veya Linux üzerindeki hex düzenleyiciler bu tür dosyalar için kullanılabilir.
+
+
 Module-info.class : modülün adını, bağımlılıklarını ve ihraç ettiği paketleri tanımlar. Dosya içeriği aşağıdaki gibidir:
                     module modul_adi {
                         requires modul_bagimlilik_adi;
