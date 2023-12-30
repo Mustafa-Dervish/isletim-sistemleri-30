@@ -1,0 +1,23 @@
+Module-info.class : modülün adını, bağımlılıklarını ve ihraç ettiği paketleri tanımlar. Dosya içeriği aşağıdaki gibidir:
+                    module modul_adi {
+                        requires modul_bagimlilik_adi;
+                        exports paket_adi;
+                    }
+bin/ Main :
+          Dispatcher.class : Komut gönderme, olay işleme veya görev yönetimi işlemlerinden birini yapar. Dosyanın yapacağı işleme göre veri yapıları kullanılacaktır.
+
+          Main.class : Programın başlangıç noktasıdır. Java Virtual Machine (JVM) tarafından çalıştırılır ve programın diğer tüm sınıflarını ve işlevlerini başlatır. Dosya içeriği aşağıdaki gibidir:
+                        public class Main {
+                          public static void main(String[] args) {
+                            System.out.println("Merhaba Dünya!");
+                          }
+                        }
+
+          Process.class : Java projesinde işletim sistemi süreçlerini temsil eden bir sınıftır. Bu dosya, bir işlemi başlatmak, onunla iletişim kurmak ve sonlandırmak için kullanılabilecek çeşitli yöntemler sağlar.
+                          start() , getInputStream() , getOutputStream() , getErrorStream() , waitFor() , destroy() Proccess.class dosyasındaki en önemli yöntemlerdendir.
+
+          ProcessParser.class  : Java projesinde işlemin çıktısını ayrıştırmak ve analiz etmek için kullanılan bir sınıftır. Bu dosya, işlemin çıktısını satırlara ayırmak, belirli bilgileri çıkarmak ve bunları uygun bir formatta sunmak için kullanılır.
+
+          ResourceManager.class  : Java projesinde kaynakları yönetmek için kullanılan bir sınıftır. Projenin ihtiyaç duyduğu çeşitli kaynakları (dosyaları) bulmak, yüklemek ve yönetmek için kullanılır.
+
+          
