@@ -1,2 +1,2 @@
-eclipse.preferences.version=1
-encoding/<project>=UTF-8
+eclipse.preferences.version=1	// Eclipse tercihlerinin sürümünü belirten satır 
+encoding/<project>=UTF-8		// Projenin UTF-8 kodlamasını kullanacak şekilde ayarlayan kod satırı 
